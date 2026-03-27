@@ -31,9 +31,6 @@ export default function App() {
                     </form>
 
                     <div className="helper-row">
-                        <p className="helper-text">
-                            Forgot password? <a href="#">Reset it</a>
-                        </p>
                         <p className="helper-text helper-right">
                             Not a member? <a href="/register">Register here</a>
                         </p>
