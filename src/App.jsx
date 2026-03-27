@@ -22,7 +22,7 @@ export default function App() {
 
                     <form className="login-form">
                         <label htmlFor="email">Email</label>
-                        <input id="email" type="email" placeholder="student@college.edu" />
+                        <input id="email" type="email" placeholder="Enter email" />
 
                         <label htmlFor="password">Password</label>
                         <input id="password" type="password" placeholder="Enter password" />
@@ -30,9 +30,14 @@ export default function App() {
                         <button type="submit">Sign In</button>
                     </form>
 
-                    <p className="helper-text">
-                        Forgot password? <a href="#">Reset it</a>
-                    </p>
+                    <div className="helper-row">
+                        <p className="helper-text">
+                            Forgot password? <a href="#">Reset it</a>
+                        </p>
+                        <p className="helper-text helper-right">
+                            Not a member? <a href="/register">Register here</a>
+                        </p>
+                    </div>
                 </div>
             </section>
         </main>
