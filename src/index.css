@@ -110,11 +110,13 @@ body {
 .form-card h2 {
     margin: 0;
     font-size: 1.8rem;
+    text-align: center;
 }
 
 .form-subtitle {
     margin-top: 0.35rem;
     color: #3a3a3a;
+    text-align: center;
 }
 
 .login-form {
