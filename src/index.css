@@ -21,6 +21,8 @@ body {
     min-height: 100vh;
 }
 
+/*---------------------------------------------------------------*/
+
 .page-shell {
     min-height: 100vh;
     display: grid;
