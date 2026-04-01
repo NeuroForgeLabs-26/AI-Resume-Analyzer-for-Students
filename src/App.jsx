@@ -1,10 +1,10 @@
-import Login from './components/Login'
+import Login from './components/login'
 import Register from './components/Register'
 
 export default function App() {
     return (
-        // <Register />
-        <Login />
+        <Register />
+        //<Login />
     );
 }
 
